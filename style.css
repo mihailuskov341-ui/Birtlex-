@@ -1,0 +1,342 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #263238;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 8%;
+}
+
+.logo .title {
+	font-size: 32px;
+}
+
+.gray {
+	color: #a7a7a7;
+}
+
+.head {
+	display: flex;
+	gap: 20px;
+}
+
+.head a {
+	text-decoration: none;
+	color: #263238;
+	font-weight: 500;
+}
+
+.menu_button {
+	padding: 12px 28px;
+	border: 2px solid #263238;
+	background: transparent;
+	cursor: pointer;
+}
+
+.burger {
+	display: none;
+	width: 32px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	padding: 60px 8%;
+}
+
+.first_text {
+
+	max-width: 632px;
+	max-height: 108px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+
+	color: #8F95A5;
+}
+
+.hero_text {
+	max-width: 600px;
+}
+
+.hero h1 {
+	font-size: clamp(36px, 5vw, 64px);
+}
+
+.hero p {
+	margin: 20px 0;
+	color: #8F95A5;
+}
+
+.primary_btn {
+	margin-top: 20px;
+	width: 438px;
+	height: 118px;
+
+	background: #263238;
+	border-radius: 15px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 54px;
+
+	color: #FFFFFF;
+}
+
+
+.section_title {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 50px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.card {
+	background: #f2f2f2;
+	padding: 25px;
+	border-radius: 10px;
+	margin-left: 10px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.general_text_in_block {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #8F95A5;
+
+
+}
+
+.price_card {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.card button {
+	margin-top: auto;
+	padding: 10px;
+	background: #263238;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.about {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	padding: 80px 8%;
+	flex-wrap: wrap;
+}
+
+.about_text {
+	max-width: 600px;
+}
+
+.text_in_about_us {
+	max-width: 635px;
+	max-height: 240px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #8F95A5;
+}
+
+.price {
+	margin-top: 10px;
+	background: #eee;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.price2 {
+	margin-top: 13px;
+	background: #eee;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	padding: 80px 8%;
+}
+
+.contact_form {
+	display: flex;
+	gap: 15px;
+	margin-top: 60px;
+}
+
+.contact_form input {
+	box-sizing: border-box;
+	width: 450px;
+	height: 80px;
+	padding-left: 15px;
+	border: 1px solid #8F95A5;
+	border-radius: 10px;
+}
+
+.contact_form button {
+	width: 264px;
+	height: 80px;
+
+	background: #263238;
+	border-radius: 10px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 8%;
+	border-top: 1px solid #ddd;
+}
+
+.text_in_price1 {
+	margin-top: 140px;
+}
+
+.text_in_price2 {
+	margin-top: 20px;
+}
+
+.In_block_button {
+	width: 218px;
+	height: 60px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+
+
+	color: #FFFFFF;
+}
+
+.last_text {
+	max-width: 776px;
+	max-height: 60px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #8F95A5;
+}
+
+.margin_for_text {
+	margin-top: 130px;
+}
+
+.footer_text {
+width: 640px;
+height: 36px;
+
+margin-left: 380px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+
+color: #8F95A5;
+
+
+}
+
+@media (max-width: 1360px) {
+	.contact_form {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1024px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.contact_form {
+		flex-wrap: wrap;
+	}
+
+	.hero {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 768px) {
+	.head {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.menu_button {
+		display: none;
+	}
+
+	.grid {
+		grid-template-columns: 1fr;
+	}
+
+	
+	.contact {
+		flex-wrap: wrap;
+	}
+
+	.footer_text {
+		width: 400px;
+		height: 36px;
+		margin-left: 20px;
+	}
+}
